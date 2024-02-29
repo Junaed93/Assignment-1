@@ -2,11 +2,10 @@
 int main(){
     int productnum, i;
     float cost, quantity;
-    float profitmargin, discountrate, totalcost, profit, afterprofit, discountamount, afterdiscount, vat, finalprice;
+    float profitmargin, discountrate, totalcost = 0, profit, afterprofit, discountamount, afterdiscount, vat, finalprice;
     
     printf("Enter the number of products:");
     scanf("%d", &productnum);
-    //There was no specific number of product so I used for loop
     
     for (i = 1; i <= productnum; i++) {
         printf("Product %d:\n", i);
